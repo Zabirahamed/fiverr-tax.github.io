@@ -11,10 +11,12 @@ $(document).ready(function() {
             var math = input / 5;
             var math = input - math;
 
+            var bdt = math * 83;
+
             $("#result").slideUp();
             $("#result").empty();
             $("#result").slideDown();
-            $("#result").append("<h4 class='text-center text-white pt-5 pb-5'>Your Fiverr Earning is "+ math +"</h4>"); 
+            $("#result").append("<h4 class='text-center text-white pt-5'>Your Fiverr Earning is "+ math +"</h4> <br> <h4 class='text-center text-white pb-5'>Ammount in BDT "+ bdt +" ৳ </h4> "); 
 
 
         }else {
